@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="22552" started-at="2021-02-18T05:35:21Z" finished-at="2021-02-18T05:35:44Z">
+    <groups>
+    </groups>
+    <test name="SalesForce" duration-ms="22552" started-at="2021-02-18T05:35:21Z" finished-at="2021-02-18T05:35:44Z">
+      <class name="com.tekarch.SFLogin.SFLogin">
+        <test-method status="PASS" signature="TriggerDependencies()[pri:0, instance:com.tekarch.SFLogin.SFLogin@3fee9989]" name="TriggerDependencies" is-config="true" duration-ms="2585" started-at="2021-02-17T21:35:19Z" finished-at="2021-02-17T21:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TriggerDependencies -->
+        <test-method status="PASS" signature="settingUpEnvironment()[pri:0, instance:com.tekarch.SFLogin.SFLogin@3fee9989]" name="settingUpEnvironment" is-config="true" duration-ms="7308" started-at="2021-02-17T21:35:21Z" finished-at="2021-02-17T21:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUpEnvironment -->
+        <test-method status="PASS" signature="to_Check_Whether_Login_Happening_Or_Not()[pri:1, instance:com.tekarch.SFLogin.SFLogin@3fee9989]" name="to_Check_Whether_Login_Happening_Or_Not" duration-ms="10593" started-at="2021-02-17T21:35:29Z" finished-at="2021-02-17T21:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Check_Whether_Login_Happening_Or_Not -->
+        <test-method status="PASS" signature="settingReqURL()[pri:0, instance:com.tekarch.SFLogin.SFLogin@3fee9989]" name="settingReqURL" is-config="true" duration-ms="468" started-at="2021-02-17T21:35:39Z" finished-at="2021-02-17T21:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingReqURL -->
+        <test-method status="PASS" signature="To_check_Error_For_Invalid_Login()[pri:2, instance:com.tekarch.SFLogin.SFLogin@3fee9989]" name="To_check_Error_For_Invalid_Login" duration-ms="3964" started-at="2021-02-17T21:35:40Z" finished-at="2021-02-17T21:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- To_check_Error_For_Invalid_Login -->
+        <test-method status="PASS" signature="settingReqURL()[pri:0, instance:com.tekarch.SFLogin.SFLogin@3fee9989]" name="settingReqURL" is-config="true" duration-ms="186" started-at="2021-02-17T21:35:44Z" finished-at="2021-02-17T21:35:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingReqURL -->
+        <test-method status="PASS" signature="ShuttingDownAllDependencies()[pri:0, instance:com.tekarch.SFLogin.SFLogin@3fee9989]" name="ShuttingDownAllDependencies" is-config="true" duration-ms="876" started-at="2021-02-17T21:35:44Z" finished-at="2021-02-17T21:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShuttingDownAllDependencies -->
+      </class> <!-- com.tekarch.SFLogin.SFLogin -->
+    </test> <!-- SalesForce -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

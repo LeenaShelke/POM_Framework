@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <parameter name="value" value="${Environment}"/>
+  <test name="SalesForce(failed)">
+    <classes>
+      <class name="com.tekarch.SFLogin.SFLogin">
+        <methods>
+          <include name="ShuttingDownAllDependencies"/>
+          <include name="To_check_Error_For_Invalid_Login"/>
+          <include name="TriggerDependencies"/>
+          <include name="settingUpEnvironment"/>
+          <include name="settingReqURL"/>
+        </methods>
+      </class> <!-- com.tekarch.SFLogin.SFLogin -->
+    </classes>
+  </test> <!-- SalesForce(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
